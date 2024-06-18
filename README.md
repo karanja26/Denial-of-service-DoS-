@@ -47,16 +47,18 @@ field, the Wireshark appears in the results, click Open to launch it.
 </p>
 
 <p align="center">
-  step . 
+  step 2.	The Wireshark Network Analyzer window appears. Double-click on the primary network interface (here, Ethernet) to start capturing the network traffic. 
+Note: If a Software Update pop-up appears click on Remind me later. 
+ 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/197c2785-8cfb-40c3-9e71-f3cb3765943d" alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
 <p align="center">
-  step . 
+  step 3.	Wireshark starts capturing the packets; leave it running.  
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/2d6fc781-4e2b-4cd6-9acb-b6cfe4acb916"alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
