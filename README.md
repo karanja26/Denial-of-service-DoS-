@@ -74,7 +74,7 @@ alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 
 <p align="center">
   step 6.	The terminal window appears. In the terminal window, type sudo su and press Enter to run the programs as a root user. 
-Step 7.	In the [sudo] password for attacker field, type toor as a password and press Enter. 
+Step 7.	In the [sudo] password for attacker field, type your root password and press Enter. 
 Note: The password that you type will not be visible. 
 Step 8.	Now, type cd and press Enter to jump to the root directory. 
  
@@ -95,23 +95,31 @@ alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 </p>
 
 <p align="center">
-  step . 
+  step 10.	This command initiates the SYN flooding attack on the Windows 11 machine. After a few seconds, press Ctrl+C to stop the SYN flooding of the target machine. 
+Note: If you send the SYN packets for a long period, then the target system may crash. 
+11.	Observe how, in very little time, the huge number of packets are sent to the target machine. 
+ 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/9069f012-4034-40e3-ac5f-a84bc96cd6ac"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
 <p align="center">
-  step . 
+  step 12.	hping3 floods the victim machine by sending bulk SYN packets and overloading the victim’s resources. 
+Click CEHv12 Windows 11 to switch to the Windows 11 machine and observe the TCP-SYN packets captured by Wireshark. 
+ 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/b3dd27c9-7c91-422d-8ee4-abf93894ff91"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
 <p align="center">
-  step . 
+  step 13.	Now, observe the graphical view of the captured packets. To do so, click Statistics from the menu bar, and then click the I/O Graph option from the drop-down list. 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/c32993aa-fa5f-4ad1-bbd6-39bd05c21536"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
