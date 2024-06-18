@@ -124,23 +124,32 @@ alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 </p>
 
 <p align="center">
-  step . 
+  step 14.	The Wireshark . IO Graphs . Ethernet window appears, displaying the graphical view of the captured packets. Observe the huge number of TCP packets captured by Wireshark, as shown in the screenshot. 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/2bac71c0-041d-49c3-b00c-b8880ff0de3c"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
 <p align="center">
-  step . 
+  step 15.	After analyzing the I/O Graph, click Close to close the Wireshark . IO Graphs . Ethernet window. 
+Close the Wireshark main window. If an Unsaved packets… pop-up appears, click Stop and Quit without Saving. 
+ 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/977d80e9-8a54-4bfc-8a3d-455885363c23"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
 <p align="center">
-  step . 
+  step 16.	Now, we shall perform a PoD attack on the target system. 
+	Now, click  Parrot Security to switch to the Parrot Security machine. In the Terminal window, type hping3 -d 65538 -S -p 21 --flood (Target IP 
+Address) (here, the target IP address is 10.10.1.11 [Windows 11]) and press Enter. 
+Note: -d: specifies data size; -S: sets the SYN flag; -p: specifies the destination port; and --flood: sends a huge number of packets. 
+
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/bdeda188-eb43-45b1-b629-e3aa95046b70"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
