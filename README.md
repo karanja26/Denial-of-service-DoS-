@@ -63,16 +63,23 @@ Note: If a Software Update pop-up appears click on Remind me later.
 </p>
 
 <p align="center">
-  step . 
+  step 4.switch to the Parrot Security machine. 
+5.	Click the MATE Terminal icon at the top of the Desktop window to open a Terminal window. 
+ 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/f752083d-ec79-4d6a-b762-c5e8bdb892bf"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
 <p align="center">
-  step . 
+  step 6.	The terminal window appears. In the terminal window, type sudo su and press Enter to run the programs as a root user. 
+Step 7.	In the [sudo] password for attacker field, type toor as a password and press Enter. 
+Note: The password that you type will not be visible. 
+Step 8.	Now, type cd and press Enter to jump to the root directory. 
+ 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/f2bbaa7e-0d7f-4c40-a61b-231231e41c8c" alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
