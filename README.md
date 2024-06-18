@@ -1,4 +1,4 @@
-![image](https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/a72d97de-6ca8-4142-9e2d-9bb17f513754)<h1>Disclaimer</h1>
+<h1>Disclaimer</h1>
 <br>The content of this project is intended solely for educational and ethical purposes. The skills and knowledge shared are to be used only for lawful activities, such as securing systems and networks with proper authorization. Unauthorized access, tampering, or exploitation of any computer systems or networks is illegal and punishable by law. By participating in this project, you agree to abide by all applicable laws and to use your skills responsibly.</br>
 <h1>Denial of Service(DoS) Attacks<h1> 
 <h2>Description</h2>
@@ -42,8 +42,7 @@ Here, we will use the hping3 tool to perform DoS attacks such as SYN flooding, P
 11 machine, Click Search icon ( ) on the Desktop. Type wireshark in the search
 field, the Wireshark appears in the results, click Open to launch it.
  <br/>
-  <img src="Uploading image.png…
-alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/1a7ec68b-4b15-4d55-9a54-4c9416bf9665" alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
