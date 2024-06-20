@@ -214,6 +214,129 @@ alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 </p>
 
 <p align="center">
+  step 22.	Click  Windows Server 2019 to switch to the Windows Server 2019 machine, click Ctrl+Alt+Del to activate the machine. By default, Administrator account is selected, type your pass in the Password field and press Enter to log in.
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/c0824dbb-fa8d-43c2-b959-0e07d229dee0"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step 23.	In the Type here to search field on the Desktop, type wireshark in the search field, the Wireshark appears in the results, click Wireshark to launch it.
+Note: You might experience degradation in the Window Server 2019 machine’s performance.
+
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/d4a7481f-fcaa-45c9-abde-c5dfa8938454"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step 24.	The Wireshark Network Analyzer window appears. Double-click on the primary network interface (here, Ethernet) to start capturing the network traffic.
+Note: The network interface might differ when you perform the task.
+Note: If a Software Update pop-up appears click on Remind me later.
+
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/3d2e65d3-141a-4a8f-8848-2462734875bc"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+Wireshark displays the network’s flow of traffic. Here, observe the huge number of UDP packets coming from the Source IP address 10.10.1.13 via port 139.
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/feb748fd-f54c-4403-8f27-55758d1b0ce9"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step 25.	Click CEHv12 Parrot Security to switch to the Parrot Security machine. In the Terminal window, press Ctrl+C to terminate the DoS attack.
+Note: Here, we have used NetBIOS port 139 to perform a UDP application layer flood attack. Similarly, you can employ other application layer protocols to perform a UDP application layer flood attack on a target network.
+Note: Some of the UDP based application layer protocols that attackers can employ to flood target networks include:
+Note: - **CharGEN **(Port 19)
+<ul>
+        <li>SNMPv2 (Port 161)</li>
+        <li>QOTD (Port 17)</li>
+        <li>RPC (Port 135)</li>
+        <li>SSDP (Port 1900)</li>
+        <li>CLDAP (Port 389)</li>
+        <li>TFTP (Port 69)</li>
+        <li>NetBIOS (Port 137, 138, 139)</li>
+        <li>NTP (Port 123)</li>
+        <li>Quake Network Protocol (Port 26000)</li>
+	<li>VoIP (Port 5060)</li>
+    </ul>
+	  <br/>
+	  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/4fe85cd2-bffa-4b5b-9d58-988d431befe6"
+	alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+	  <br/>
+	</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step . 
+ <br/>
+  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
   step . 
  <br/>
   <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
