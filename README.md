@@ -255,6 +255,7 @@ alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 Note: Here, we have used NetBIOS port 139 to perform a UDP application layer flood attack. Similarly, you can employ other application layer protocols to perform a UDP application layer flood attack on a target network.
 Note: Some of the UDP based application layer protocols that attackers can employ to flood target networks include:
 Note: - **CharGEN **(Port 19)
+	<p align="center">
 <ul>
         <li>SNMPv2 (Port 161)</li>
         <li>QOTD (Port 17)</li>
@@ -267,6 +268,7 @@ Note: - **CharGEN **(Port 19)
         <li>Quake Network Protocol (Port 26000)</li>
 	<li>VoIP (Port 5060)</li>
     </ul>
+    </p>
 	  <br/>
 	  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/4fe85cd2-bffa-4b5b-9d58-988d431befe6"
 	alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
@@ -274,85 +276,7 @@ Note: - **CharGEN **(Port 19)
 	</p>
 
 <p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
+This concludes the demonstration of how to perform DoS attacks (SYN flooding, PoD attacks, and UDP Application Layer Flood Attacks) on a target host using hping3.
+ </p>
 
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
 
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
-
-<p align="center">
-  step . 
- <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
-  <br/>
-</p>
