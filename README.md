@@ -154,9 +154,62 @@ alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
 </p>
 
 <p align="center">
-  step . 
+ 	This command initiates the PoD attack on the Windows 11 machine.
+Note: In a PoD attack, the attacker tries to crash, freeze, or destabilize the targeted system or service by sending malformed or oversized packets using a simple ping command.
+Note:For example, the attacker sends a packet that has a size of 65,538 bytes to the target web server. This packet size exceeds the size limit prescribed by RFC 791 IP, which is 65,535 bytes. The receiving system’s reassembly process might cause the system to crash..	hping3 floods the victim machine by sending bulk packets, and thereby overloading the victim’s resources.Click Windows 11 to switch to the Windows 11 machine.
+	step 17.Click Search icon ( ) on the Desktop. Type wireshark in the search field, the Wireshark appears in the results, click Open to launch it.
+ 
  <br/>
-  <img src=alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/6f23b2a2-9c0f-42af-b40b-c4f4e92af624"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step 18.The Wireshark Network Analyzer window appears. Double-click on the primary network interface (here, Ethernet) to start capturing the network traffic.
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/65642579-5ca0-4e31-a76f-084dc1eaf54f"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step 19.Observe the large number of packets captured by Wireshark. 
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/f5e16508-4116-43e4-85cd-798eff26c0c2"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step 20.You can observe the degradation in the performance of the system.
+Note: The results might differ when you perform the task.
+Click  Parrot Security to switch to the Parrot Security machine. In the Terminal window, press Ctrl+C to terminate the PoD attack using hping3.
+ 
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/19e63784-2c03-47b3-9501-5f4f15195dc2"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step 21.	Now, we shall perform a UDP application layer flood attack on the Windows Server 2019 machine using NetBIOS port 139. To do so, first, determine whether NetBIOS port 139 is open or not.
+	In the terminal window, type nmap -p 139 (Target IP Address) (here, the target IP address is 10.10.1.19 [Windows Server 2019]) and press Enter.
+Note:Here, we will use NetBIOS port 139 to perform a UDP application layer flood attack.
+
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/b1067673-1eb8-4a4e-9275-bd40cf689190"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
+  <br/>
+</p>
+
+<p align="center">
+  step 21 Now, type hping3 -2 -p 139 --flood (Target IP Address) (here, the target IP address is 10.10.1.19 [Windows Server 2019]) and press Enter.
+Note:-2: specifies the UDP mode; -p: specifies the destination port; and --flood: sends a huge number of packets.
+
+ <br/>
+  <img src="https://github.com/karanja26/Denial-of-service-DoS-/assets/55892563/8472eb87-2473-4aad-9425-113ef1ffebb6"
+alt="image" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
   <br/>
 </p>
 
